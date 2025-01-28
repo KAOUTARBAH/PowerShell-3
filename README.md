@@ -5,7 +5,7 @@
 Start-Process calc.exe
 Start-Sleep -Seconds 1
 Start-Process calc.exe
-$AllProcess = Get-Process
+$AllProcess = Get-Process```
 
 ![commande lancé](https://github.com/KAOUTARBAH/PowerShell-3/blob/main/images/calc.png)
 
