@@ -3,6 +3,7 @@
 Utilise la commande dig pour récupérer les informations suivantes :
 
 - les adresses IP version 4 du site web de la Wild Code School ! www.wildcodeschool.com
+**Récupérer les adresses IP version 4 :**
 ***dig www.wildcodeschool.com A***
 ***dig www.wildcodeschool.com***
 ![adresses IP 4](https://github.com/KAOUTARBAH/PowerShell-3/blob/main/imageDig/adresseip4.png)
@@ -18,7 +19,7 @@ Utilise la commande dig pour récupérer les informations suivantes :
 
 - (Bonus) les noms des serveurs de noms faisant autorité sur le domaine wildcodeschool.com et le serveur primaire.
 ***dig wildcodeschool.com NS***
-![nom serveurs](https://github.com/KAOUTARBAH/PowerShell-3/blob/main/imageDig/domaine.png)
+![nom serveurs](https://github.com/KAOUTARBAH/PowerShell-3/blob/main/imageDig/domine.png)
 
 **le serveur primaire.**
 ***dig wildcodeschool.com NS +short***
