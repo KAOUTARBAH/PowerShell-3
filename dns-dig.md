@@ -1,6 +1,6 @@
 # Requêter DNS avec dig
 
-Utilise la commande dig pour récupérer les informations suivantes :
+## Utilise la commande dig pour récupérer les informations suivantes :
 
 - les adresses IP version 4 du site web de la Wild Code School ! www.wildcodeschool.com
 #### Récupérer les adresses IP version 4 :
@@ -13,7 +13,7 @@ Utilise la commande dig pour récupérer les informations suivantes :
     dig odyssey.wildcodeschool.com AAAA***
 ![adresses IP 6](https://github.com/KAOUTARBAH/PowerShell-3/blob/main/imageDig/adresseip6.png)
 
-**l'hébergeur de ton fournisseur de quête préféré**
+#### l'hébergeur de ton fournisseur de quête préféré
     whois <adresse_IP>
 ![whois](https://github.com/KAOUTARBAH/PowerShell-3/blob/main/imageDig/whois.png)
 
@@ -22,7 +22,7 @@ Utilise la commande dig pour récupérer les informations suivantes :
     dig wildcodeschool.com NS***
 ![nom serveurs](https://github.com/KAOUTARBAH/PowerShell-3/blob/main/imageDig/domine.png)
 
-**le serveur primaire.**
+#### le serveur primaire.
     dig wildcodeschool.com NS +short
 ![serveur primaire](https://github.com/KAOUTARBAH/PowerShell-3/blob/main/imageDig/domaineP.png)
 
